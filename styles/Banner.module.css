@@ -1,0 +1,11 @@
+.main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: start;
+    border: 5px solid red;
+    width: 75vw;
+    height: 25vh;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    top: 0;
+}

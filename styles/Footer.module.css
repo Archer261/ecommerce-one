@@ -1,0 +1,25 @@
+.main {
+
+    position: absolute;
+    bottom: 0;
+    background: white;
+    height: 3vh;
+    width: 100vw;
+    border-top: 1px solid rgb(184, 184, 184);
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.main img {
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+    width: 20px;
+    height: auto;
+}
+
+.rights {
+    justify-self: center;
+    align-self: center;
+    font-size: 10px;
+}

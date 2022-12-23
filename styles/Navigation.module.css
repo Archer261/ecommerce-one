@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 7vh;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    background-color: white;
+}
+
+.main h1 {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.list {
+    display: flex;
+    margin-right: 40px; 
+}
+
+.list li {
+    text-decoration: none;
+    padding-left: 5px;
+    margin-right: 10px;
+    list-style: none;
+    transition-duration: 0.1s;
+}
+
+.list li:hover {
+font-size: 1.1em;
+color: blueviolet;
+text-decoration: underline;
+font-weight: bolder;
+top: 0;
+}
